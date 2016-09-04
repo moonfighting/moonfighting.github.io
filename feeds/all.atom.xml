@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>moonfighting</title><link href="no/" rel="alternate"></link><link href="no/feeds/all.atom.xml" rel="self"></link><id>no/</id><updated>2016-09-05T00:00:00+02:00</updated><entry><title>hello</title><link href="no/hello.html" rel="alternate"></link><published>2016-09-05T00:00:00+02:00</published><author><name>moonfighting</name></author><id>tag:,2016-09-05:no/hello.html</id><summary type="html">&lt;h2&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;This project is an implentation of the paper &lt;a href="http://www.cse.cuhk.edu.hk/leojia/projects/pencilsketch/pencil_drawing.htm"&gt;&amp;lt;&lt;Combining Sketch and Tone for Pencil Drawing Production&gt;&amp;gt;&lt;/a&gt; using python. &lt;/p&gt;
+&lt;p&gt;Now it could only produce grayscale result, the color result will be done in future.&lt;/p&gt;
+&lt;p&gt;The code reference to the an matlab implentation on github, see (https://github.com/candycat1992/PencilDrawing)   &lt;/p&gt;
+&lt;h2&gt;Dependcy&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;numpy&lt;/li&gt;
+&lt;li&gt;scipy&lt;/li&gt;
+&lt;li&gt;opencv&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Usage&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;python pencil_draw.py [image] [pencil texture img]&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;eg: &lt;code&gt;python pencil_draw.py lena.jpg pencil0.jpg&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;the result image will be showed&lt;/p&gt;
+&lt;h2&gt;Reference&lt;/h2&gt;
+&lt;p&gt;[1]Lu C, Xu L, Jia J. Combining sketch and tone for pencil drawing production[C]//Proceedings of the Symposium on Non-Photorealistic Animation and Rendering. Eurographics Association, 2012: 65-73.&lt;/p&gt;</summary><category term="Pelican"></category><category term="Markdown"></category></entry></feed>
